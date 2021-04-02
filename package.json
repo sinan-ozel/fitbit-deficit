@@ -32,6 +32,7 @@
     "debug": "fitbit"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "fitbit": "0.0.7"
   }
 }
