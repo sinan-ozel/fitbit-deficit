@@ -1,0 +1,8 @@
+<svg viewport-fill="black">
+    <text id="myClock" x="50%" y="50%+13"
+        fill="cyan" font-size="24" font-family="System-Regular"
+        text-anchor="middle" text-length="20">00:00:00</text>
+    <text id="myCalories" x="85%" y="75%"
+        fill="cyan" font-size="16" font-family="System-Regular"
+        text-anchor="end" text-length="20"></text>
+</svg>
