@@ -2,8 +2,10 @@ import { settingsStorage } from "settings";
 
 // TODO: Needs testing on actual device, Fitbit Simulator does not implement permissions.
 
+const zeroPad = (n => (n < 10) ? "0" + n : n);
+
 let date = new Date();
-let todayDate = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`; 
+let todayDate = `${date.getFullYear()}-${zeroPad(date.getMonth() + 1)}-${zeroPad(date.getDate())}`; 
 
 
 for (let index = 0; index < settingsStorage.length; index++) {
